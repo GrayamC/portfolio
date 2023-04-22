@@ -399,6 +399,9 @@ p {
   .tile-image {
     width: 100%;
   }
+  .down-arrow {
+    display: none;
+  }
 }
 @media (max-width: 1000px) {
   .nav-section {
