@@ -404,7 +404,6 @@ p {
   }
   .tile-image {
     width: 100%;
-    height: 75%;
   }
 }
 @media (max-width: 1000px) {
