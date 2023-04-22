@@ -222,7 +222,6 @@ p {
   width: 45%;
   height: auto;
   border-radius: 24px;
-  z-index: -1;
 }
 .tile-text {
   width: 45%;
@@ -304,13 +303,9 @@ p {
   display: inline-block;
 }
 
-#Persona {
-  width: 45%;
-  height: 100%;
-}
-
 .about-tile {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   width: 100%;
 }
@@ -372,10 +367,29 @@ p {
   position: fixed;
   filter: blur(4px);
 }
+#Persona {
+  display: inline-block;
+}
 
 /*Media Queries*/
 
 @media (max-width: 1200px) {
+  .cs-tile {
+    flex-direction: column-reverse;
+  }
+  .tile-text {
+    width: 100%;
+  }
+  #Persona {
+    width: 45%;
+  }
+  .work-section,
+  .about-section {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+@media (max-width: 768px) {
   .cs-tile {
     flex-direction: column-reverse;
   }
@@ -390,8 +404,6 @@ p {
     padding-left: 50px;
     padding-right: 50px;
   }
-}
-@media (max-width: 768px) {
   .nav-section {
     display: none;
   }
@@ -411,5 +423,18 @@ p {
   }
   .about-text {
     width: 75%;
+  }
+
+  body {
+    overflow-x: hidden;
+    height: 100%;
+  }
+  .title {
+    padding: 0px 0px 0px 0px;
+    width: 100%;
+  }
+  .about-image {
+    width: 50%;
+    height: 50%;
   }
 }
