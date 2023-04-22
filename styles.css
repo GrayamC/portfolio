@@ -333,6 +333,7 @@ p {
 .footer-title {
   font-size: 27px;
   font-weight: 400;
+  width: 4em;
   color: #f2f2f2;
   font-family: DM Sans, sans-serif;
   margin-bottom: 24px;
@@ -387,6 +388,17 @@ p {
   .about-section {
     padding-left: 50px;
     padding-right: 50px;
+  }
+}
+@media (max-width: 1000px) {
+  .nav-section {
+    display: none;
+  }
+  .cs-tile {
+    flex-direction: column-reverse;
+  }
+  .tile-image {
+    align-self: center;
   }
 }
 @media (max-width: 768px) {
