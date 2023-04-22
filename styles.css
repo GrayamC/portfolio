@@ -166,8 +166,8 @@ p {
 .down-arrow {
   width: 45px;
   height: 45px;
-  margin-top: 50px;
-  margin-bottom: 100px;
+  margin-top: 0px;
+  margin-bottom: 25px;
   transition: 0.3s;
   color: #f2f2f2;
 }
@@ -394,6 +394,7 @@ p {
   }
   .title {
     width: 100%;
+    margin: 0px 0px 0px 50px;
   }
   .tile-image {
     width: 100%;
@@ -418,6 +419,9 @@ p {
   }
   .emoji {
     font-size: 20px;
+  }
+  .title-section {
+    margin-bottom: 50px;
   }
 }
 @media (max-width: 768px) {
