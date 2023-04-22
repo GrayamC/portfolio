@@ -220,7 +220,7 @@ p {
 
 .tile-image {
   width: 45%;
-  height: 80vw;
+  height: auto;
   border-radius: 24px;
 }
 .tile-text {
@@ -389,12 +389,6 @@ p {
     width: 45%;
   }
   .work-section,
-  .title {
-    width: 100%;
-  }
-  .tile-image {
-    width: 100%;
-  }
   .about-section {
     padding-left: 50px;
     padding-right: 50px;
