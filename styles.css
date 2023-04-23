@@ -383,15 +383,6 @@ p {
 /*Media Queries*/
 
 @media (max-width: 1200px) {
-  .footer-link-alt {
-    display: inline;
-    padding: 0px 10px 0px 10px;
-    font-size: 0.8em;
-    text-decoration: underline;
-  }
-  .footer-icon {
-    display: none;
-  }
   #blurryscroll {
     visibility: hidden;
   }
@@ -436,6 +427,16 @@ p {
   }
 }
 @media (max-width: 1000px) {
+  .footer-link-alt {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+    font-size: 0.8em;
+    text-decoration: underline;
+  }
+  .footer-icon {
+    display: none;
+  }
+
   .nav-section {
     display: none;
   }
