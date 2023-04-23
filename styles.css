@@ -379,6 +379,9 @@ p {
 /*Media Queries*/
 
 @media (max-width: 1200px) {
+  #blurryscroll {
+    visibility: hidden;
+  }
   .cs-tile {
     flex-direction: column-reverse;
   }
@@ -486,6 +489,10 @@ p {
   .title {
     padding: 0px 0px 0px 0px;
     width: 100%;
+  }
+
+  .title-subtext {
+    font-size: 1.5em;
   }
   .about-image {
     width: 50%;
