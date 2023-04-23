@@ -1,5 +1,5 @@
 body {
-  overflow-x: hidden;
+  overflow-x: auto;
 }
 a {
   text-decoration: none;
@@ -313,7 +313,8 @@ p {
   background-color: #121212;
   display: flex;
   justify-content: center;
-  width: 100%;
+  width: 100vh;
+  justify-items: center;
 }
 
 .footer-icon {
@@ -338,24 +339,24 @@ p {
   margin-bottom: 24px;
   display: block;
 }
-.gg-mail {
-  width: 35px;
-  height: 35px;
-  display: inline-block;
-  transition: 0.3s;
-}
+
 .footer-content {
-  width: 16%;
+  width: 20%;
   align-items: center;
   display: flex;
   flex-direction: column;
   margin: 124px 0px 124px 0px;
+  text-align: center;
 }
 .footer-links {
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+.footer-email {
+  width: 2em;
+  height: 2em;
 }
 
 #blurryscroll {
@@ -381,6 +382,15 @@ p {
   .cs-tile {
     flex-direction: column-reverse;
   }
+  .cs-footer {
+    flex-direction: column;
+    display: block;
+  }
+  .see-case {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 5px;
+  }
   .tile-text {
     width: 100%;
   }
@@ -404,6 +414,9 @@ p {
   }
   .caseicon {
     padding-left: 10px;
+  }
+  .footer {
+    justify-content: center;
   }
 }
 @media (max-width: 1000px) {
