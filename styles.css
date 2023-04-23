@@ -313,8 +313,8 @@ p {
   background-color: #121212;
   display: flex;
   justify-content: center;
-  width: 100vh;
   justify-items: center;
+  width: 100%;
 }
 
 .footer-icon {
