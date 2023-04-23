@@ -286,7 +286,7 @@ p {
   height: 24px;
   width: 24px;
   color: #1d1d1d;
-  padding-left: 10px;
+  margin-left: 10px;
 }
 .about-text {
   width: 45%;
@@ -394,13 +394,16 @@ p {
   }
   .title {
     width: 100%;
-    margin: 0px 0px 0px 50px;
+    margin: 0px 50px 0px 50px;
   }
   .tile-image {
     width: 100%;
   }
   .down-arrow {
     display: none;
+  }
+  .caseicon {
+    padding-left: 10px;
   }
 }
 @media (max-width: 1000px) {
