@@ -186,6 +186,7 @@ p {
 .nav-link {
   font-family: Satoshi, sans-serif;
 }
+
 .work-title,
 .about-title {
   margin-left: 0px;
@@ -194,7 +195,7 @@ p {
   font-size: 27px;
   scroll-margin-top: 75px;
 }
-.about-title{
+.about-title {
   margin-top: 100px;
 }
 .work-section,
