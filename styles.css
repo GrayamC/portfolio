@@ -256,7 +256,7 @@ p {
   );
   box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
   transition: 0.3s;
-  margin-right: 20px;
+  width: 100%;
 }
 
 .see-case:hover {
