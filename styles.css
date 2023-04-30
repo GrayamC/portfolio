@@ -186,17 +186,11 @@ p {
 .nav-link {
   font-family: Satoshi, sans-serif;
 }
-
 .work-title,
 .about-title {
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
+  margin: 0px 0px 0px 0px;
   font-size: 27px;
   scroll-margin-top: 75px;
-}
-.about-title {
-  margin-top: 100px;
 }
 .work-section,
 .about-section {
@@ -244,7 +238,7 @@ p {
 }
 
 .see-case {
-  display: flex;
+  display: block;
   flex-direction: row;
   align-items: center;
   height: 44px;
@@ -256,6 +250,7 @@ p {
   );
   box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
   transition: 0.3s;
+  margin-right: 20px;
   width: 100%;
 }
 
@@ -268,14 +263,13 @@ p {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
-  padding: 12px 12px 12px 12px;
+  justify-content: center;
   color: #1d1d1d;
   font-weight: 700;
   font-family: DM Sans, sans-serif;
 }
 .cs-footer {
-  display: flex;
+  display: block;
   flex-direction: row;
   align-items: center;
   justify-items: start;
@@ -286,14 +280,13 @@ p {
   height: 24px;
   width: 24px;
   color: #1d1d1d;
-  padding-left: 10px;
 }
 .caseicon {
   display: inline-block;
   height: 24px;
   width: 24px;
   color: #1d1d1d;
-  margin-left: 10px;
+  margin-right: 16px;
 }
 .about-text {
   width: 45%;
