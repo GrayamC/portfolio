@@ -134,7 +134,14 @@ p {
 }
 
 /*Case Styles*/
-
+.intro-holder {
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50vh;
+}
 .mt-64 {
   margin-top: 64px;
 }
