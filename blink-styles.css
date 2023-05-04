@@ -272,7 +272,7 @@ strong {
 }
 .introimg {
   width: 50%;
-  height: auto;
+  height: 50vh;
   border-radius: 20px;
   margin-bottom: 64px;
   margin-top: 32px;
