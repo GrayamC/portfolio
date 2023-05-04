@@ -270,6 +270,13 @@ strong {
   display: flex;
   flex-direction: column;
 }
+.introimg {
+  width: 50%;
+  height: auto;
+  border-radius: 20px;
+  margin-bottom: 64px;
+  margin-top: 32px;
+}
 .ending-holder {
   display: flex;
   flex-direction: column;
