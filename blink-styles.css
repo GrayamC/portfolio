@@ -135,12 +135,23 @@ p {
 
 /*Case Styles*/
 .intro-holder {
-  display: block;
+  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   width: 100%;
-  height: 50vh;
+  height: auto;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.splash {
+  display: block;
+  width: auto;
+  height: auto;
+  text-align: center;
+  justify-content: center;
+}
+.mt-192 {
+  margin-top: 192px;
 }
 .mt-64 {
   margin-top: 64px;
@@ -169,17 +180,18 @@ p {
   margin: 0px 125px 0px 125px;
 }
 .splash-pic {
-  height: 100%;
-  width: 100%;
+  height: auto;
+  width: 50%;
   border-radius: 20px;
   margin-bottom: 80px;
+  justify-self: center;
+  align-self: center;
 }
 
 .main-header {
   display: block;
   font-family: Satoshi, sans-serif;
   font-size: 32px;
-  margin-top: 64px;
   margin-bottom: 16px;
 }
 .sub-header {
@@ -277,13 +289,7 @@ strong {
   display: flex;
   flex-direction: column;
 }
-.introimg {
-  width: 50%;
-  height: auto;
-  border-radius: 20px;
-  margin-bottom: 64px;
-  margin-top: 32px;
-}
+
 .ending-holder {
   display: flex;
   flex-direction: column;
@@ -598,6 +604,9 @@ strong {
   }
 }
 @media (max-width: 1000px) {
+  body {
+    margin: 0px 0px 0px 0px;
+  }
   .intro {
     display: flex;
     flex-direction: column-reverse;
