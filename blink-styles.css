@@ -261,6 +261,15 @@ strong {
   width: 250px;
   height: 250px;
 }
+.intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.intro-text {
+  display: flex;
+  flex-direction: column;
+}
 .ending-holder {
   display: flex;
   flex-direction: column;
@@ -575,6 +584,11 @@ strong {
   }
 }
 @media (max-width: 1000px) {
+  .intro {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
   .footer-link-alt {
     display: inline;
     padding: 0px 10px 0px 10px;
