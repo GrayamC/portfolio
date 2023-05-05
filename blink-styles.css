@@ -253,7 +253,7 @@ strong {
 .tasktable {
   width: 75%;
   height: auto;
-  border-radius: 20px;
+  border-radius: 5px;
   margin-bottom: 64px;
   margin-top: 32px;
 }
