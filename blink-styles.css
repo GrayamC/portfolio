@@ -701,3 +701,19 @@ strong {
     font-size: 20px;
   }
 }
+
+@media (max-width: 480px) {
+  .content-holder {
+    margin: 0px 0px 0px 16px;
+    box-sizing: border-box;
+    width: 90%;
+  }
+}
+
+@media (max-width: 360px) {
+  .footer {
+    margin: 0px 0px 0px 16px;
+    box-sizing: border-box;
+    width: 90%;
+  }
+}
