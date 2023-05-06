@@ -7,7 +7,7 @@
     <link rel="icon" type="image/x-icon" href="./images/Persona.svg">
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="mia-styles.css" />
+    <link rel="stylesheet" href="postup-styles.css" />
     <script
       src="https://kit.fontawesome.com/d198b2e435.js"
       crossorigin="anonymous"
@@ -23,6 +23,7 @@
     <link href='https://unpkg.com/css.gg@2.0.0/icons/css/file-document.css' rel='stylesheet'>
     <link href='https://unpkg.com/css.gg@2.0.0/icons/css/mail.css' rel='stylesheet'>
     <link href='https://unpkg.com/css.gg@2.0.0/icons/css/mail-open.css' rel='stylesheet'>
+    
   </head>
   <body style="background-color: #1d1d1d">
     <div id="blurryscroll" aria-hidden="true"></div>
@@ -49,7 +50,14 @@
     <!--Case Start-->
     <section class="case-section" id="case-section">
       <div class="content-holder">
-          <img class="splash-pic mt-32" src="./images/postup-intro.png">
+        <div class="intro-holder">
+          <div class="intro-text">
+            <h1 class="main-header">PostUp! Anywhere, anytime.</h1>
+            <p class="body-text">Find a place to work, wherever you are.</p>
+          </div>
+        <img class="splash-pic" src="./images/postup-introimg.png"> 
+        </div>
+        <h1 class="main-header">Details:</h1>
         <ul>
           <li class="case-list-item">
             <p class="body-text"><strong>App name:</strong> PostUp</p>
@@ -64,7 +72,7 @@
             </p>
           </li>
         </ul>
-        <h2 class="sub-header">Overview</h2>
+        <h1 class="main-header">Overview</h1>
         <ul>
           <li class="case-list-item">
             <p class="body-text"><strong>My Role:</strong> User Researcher, User Tester, Product Designer, Product Developer, User Experience Designer, Interaction Designer</p>
@@ -79,8 +87,8 @@
           </li>
         </ul>
         
-        <h2 class="sub-header">3 Key Attributes to Success</h2>
-        <div class="subheader-area">
+        <h1 class="main-header">3 Key Attributes to Success</h1>
+        
           <p class="body-text">PostUp actively sought feedback from remote workers and freelancers regarding their struggles with finding suitable public spaces for work. These professionals expressed a need for locations where they can settle in for a couple of hours between meetings or work from for an entire day. Furthermore, when visiting new areas of their city or traveling to unfamiliar destinations, users yearn for a dependable method to discover exceptional workspaces. The top attributes that users seek in these spaces include:</p>
           <ul>
             <li class="case-list-item">
@@ -95,28 +103,31 @@
               <p class="body-text"><strong>Amenities:</strong> Free and reliable access to WiFi and electrical outlets with access to bathrooms and good food.</p>
             </li>
           </ul>
-        </div>
+      
         <p class="body-text">PostUp will help users spend less time finding public places to work that has the basic amenities they need, and more time working. </p>
 
-        <h1 class="main-header">Day 1 - Mapping</h1>
-        <div class="subheader-area">
+        <h1 class="main-header mt-192">Day 1 - Mapping</h1>
+       
           <h2 class="sub-header">Think AirBNB for quiet workspaces</h2>
             <p class="body-text">On Day 1, I started to think about the PostUp’s benefits and the pain points it was solving. This app needs to address the primary needs of freelance, remote, and hybrid workers — finding a suitable public workspace in which to work. Ideally, the app will not only help speed the process of finding the best location but clearly illustrate the key amenities that are present in the location. 
             </p>
             <h2 class="sub-header mt-64">Key Features to Showcase</h2>
-        </div>
-        <img class="case-image" src="./images/postup-table.png" data-aos="fade-right">
-
-        <div class="subheader-area">
+        
+            <div class="tasktable-holder">
+              <img class="case-image tasktable" src="./images/postup-table.png" data-aos="fade-right">
+            </div>
+        
           <p class="body-text">
             The following map represented possible end-to-end user flows that have since been implemented into the product via an amalgamation of all their key traits. It illustrates the various steps and actions that a user takes from start to finish, providing a clear visual representation of the user experience. By mapping out these user flows during the development process,  I was able to ensure a thorough analysis of the user journey and make necessary improvements to enhance the overall user experience. 
           </p>
-          <img class="case-image" src="./images/postup-diagram.png" data-aos="fade-left">
-        </div> 
+          <div class="tasktable-holder">
+            <img class="case-image tasktable" src="./images/postup-diagram.png" data-aos="fade-left">
+          </div>
+        
           
-          <h1 class="main-header">Day 2 - Sketching</h1>
+          <h1 class="main-header mt-192">Day 2 - Sketching</h1>
           <h2 class="sub-header">Lightning Demos</h2>
-          <div class="subheader-area">
+          
             <p class="body-text">
               On Day 2, I participated in three lightning demos with Airbnb, Yelp and Foursquare to seek visual inspiration. These apps have high user adoption and leverage location based data to connect with user needs.
             </p>
@@ -127,19 +138,20 @@
                   I was immediately struck by how organized and aesthetically pleasing the Airbnb app was. 
                 </p>
              </li>
-             <div class="demo-holder">
+             <div class="tasktable-holder">
              <img class="demo mt-32" src="./images/postup-demo1.png">
             </div>
 
             <h2 class="sub-header mt-64">Yelp</h2>
-            <li class="case-list-item">
+            <li class="case-list-item mt-8">
               <p class="body-text">
                 Yelp seemed particularly strong in providing useful information for people to find what they want and learn how to get there. 
               </p>
            </li>
-           <div class="demo-holder">
-           <img class="demo mt-32" src="./images/postup-demo2.png">
+           <div class="tasktable-holder">
+           <img class="demo mt-32 tasktable" src="./images/postup-demo2.png">
           </div>
+          
 
           <h2 class="sub-header mt-64">Foursquare</h2>
           <li class="case-list-item">
@@ -147,35 +159,41 @@
               During the lightning demo, I explored the features of FourSquare and found that the data was displayed in a more quantifiable way, making it easier for me to understand and compare different options. 
             </p>
          </li>
-         <div class="demo-holder">
-         <img class="demo mt-32" src="./images/postup-demo3.png">
-        </div>
-            </ul>
+
+          <div class="tasktable-holder">
+            <img class="demo mt-32 tasktable" src="./images/postup-demo3.png">
           </div>
+            </ul>
 
           <h2 class="sub-header mt-64">Sketching Process</h2>
           <p class="body-text">In order to draw inspiration from my user flows and incorporate key components into my own design, I utilized the Crazy 8's UX sketching technique. This technique involves rapidly sketching eight different design concepts in eight minutes, allowing for a wide range of ideas to be generated quickly. By utilizing this technique, I was able to brainstorm and explore different possibilities for my design without getting bogged down in the details. This approach helped me to identify key elements from each user flow that I could incorporate into my own design, such as easy access to saved locations and the ability to view a map with all nearby locations. By using the Crazy 8's technique, I was able to generate a variety of ideas and quickly identify the most promising concepts to incorporate into my design. This technique is particularly helpful in this situation as it allowed me to create a lot of different options to pick from, without spending too much time on any one design.
-          <img class="case-image" src="./images/postup-crazy8.png" data-aos="fade-right">
+          
+            <div class="tasktable-holder">
+            <img class="case-image tasktable" src="./images/postup-crazy8.png" data-aos="fade-right">
+          </div>
 
           <p class="body-text">I chose the final scene in the Crazy 8's sequence to be my critical screen for my 3 panel storyboard because it met all the criteria that I was looking for. It translated the best from paper to a live prototype, included different aspects from each lightning demo, and had the best overall UI/UX conversion. It was the best representation of my design vision and had the most potential for success as seen below.
-            <img class="case-image" src="./images/postup-3panel.png" data-aos="fade-left">
-          
-          <h1 class="main-header">Day 3 - Decision</h1>
+            
+            <div class="tasktable-holder">
+            <img class="case-image tasktable" src="./images/postup-3panel.png" data-aos="fade-left">
+            </div>
+
+          <h1 class="main-header mt-192">Day 3 - Decision</h1>
             <h2 class="sub-header">Airbnb becomes my leading inspiration</h2>
             <p class="body-text">
               On the third day of my design process, I made the decision to heavily influence the design of PostUp by the user-centered and intuitive design system of the Airbnb app. However, I also recognized the value in incorporating key elements from other industry leaders such as Foursquare and Yelp, these include: 
             </p>
                 <ul>
                   <li class="case-list-item">
-                    <p class="body-text">Foursquare's method of quantifying ratings</p>
+                  <strong> <p class="body-text">Foursquare's method of quantifying ratings</p></strong> 
                   </li>
         
                   <li class="case-list-item">
-                    <p class="body-text">Yelp's built-in map and navigation system to make the user experience more seamless.</p>
+                   <strong> <p class="body-text">Yelp's built-in map and navigation system to make the user experience more seamless.</p> </strong>
                   </li>
         
                   <li class="case-list-item">
-                    <p class="body-text">Price-point metric from both Foursquare and Yelp, using a series of dollar signs ranging from "$" to "$$$" to indicate the cost of a listing. </p>
+                     <strong><p class="body-text">Price-point metric from both Foursquare and Yelp, using a series of dollar signs ranging from "$" to "$$$" to indicate the cost of a listing. </p> </strong>
                   </li>
                   </ul>
 
@@ -185,86 +203,55 @@
 
               
                 </ul>
-                <ul>
-                  <li class="case-list-item mt-32">
-                    <p class="body-text"><strong>Colors, fonts and typography:</strong>  A mix of DM Sans and Montserrat were chosen to convey a sense of invitation and simplicity as two welcoming and unintrusive sans-serif typefaces that also scale well between titles, headers, and body text. The font weights varied between bold, semi-bold, and medium respectively.</p>
-                  </li>
-        
-                  <li class="case-list-item">
-                    <p class="body-text"><strong>Imagery + Iconography:</strong>  Imagery for this brand was mainly used to display the products, however; imagery was also used to convey activity and to demonstrate, and hopefully convince, potential users that their lifestyle will be similar to those in the pictures after their purchase.
 
-                    </p>
-                  </li>
-        
-                  <li class="case-list-item">
-                    <p class="body-text"><strong>Overall design:</strong> A simplistic and intentionally minimal design enhances the experience, removes barriers to entry and engagement, and welcomes users on a journey that gets them acclimated and using the product quickly and easily, while also making use of popular convention.</p>
-                  </li>
-                </ul>
+                <div class="tasktable-holder">
+                  <img class="case-image tasktable" src="./images/postup-5panel.jpg" data-aos="fade-left">
+                </div>
 
-            <img class="case-image" src="./images/postup-styles.png" data-aos="fade-left">
-            <h2 class="sub-header mt-32">How does Blink Bikes work?</h2>
-            <div class="subheader-area">
-              <p class="body-text">Using the user stories as a starting point, I wanted to set up an intuitive flow that also solved for the attributes they desired most in the app. In addition to conventional UI and intentional limitation of information on the screen at once, the app needed to:</p>
-              <ul>
-                <li class="case-list-item">
-                  <p class="body-text"> - Build trust with customers on our checkout page</p>
-                </li>
-      
-                <li class="case-list-item">
-                  <p class="body-text"> - Offer clear and compelling reasons for customers to complete their purchases</p>
-                </li>
-      
-                <li class="case-list-item">
-                  <p class="body-text"> - Streamline the checkout process and minimize steps and fields</p>
-                </li>
-              </ul>
-            </div>
-
-            <h1 class="sub-header">Low Fidelity Wireframes</h1>
-            <div class="lowfi-holder">
-              <img class="lowfi" src="./images/postup-lowfi.png" data-aos="fade-left">
-              </div>
-
-            <div class="subheader-area">
-              <h2 class="sub-header">Does Blink Bikes work?</h2>
-              <p class="body-text">Two rounds of usability tests were conducted, one low fidelity and one high fidelity. The intended test demographic was originally meant to be conducted on users between the ages of 24 - 38, majority men, high-income earners. Unfortunately, I didn’t and still don’t have immediate access to anyone who fits this criteria. I, instead, tested close friends of family, some of whom are actively in the bicycle market and some not. Regardless, these tests provided valuable insight into the overall usability and intuitiveness of the platform.</p>
-              <p class="body-text">The goal was to determine product quality and seamlessness of the experience to promote adoption and repeat usage. The test objectives were to uncover usability and other technical issues within the red routes of the product. Two key questions to answer were: Is our prototype seamless and how do users navigate our product? The test tasks were as follows:</p>
-              <ul>
-                <li class="case-list-item">
-                  <p class="body-text"> <strong>Task 1:</strong> Add two bikes, the Z100  Mountain and the Royal Iron 315Z to the cart
-                  </p>
-                </li>
-      
-                <li class="case-list-item">
-                  <p class="body-text"> <strong>Task 2:</strong> Compare these two bikes using the side by side view feature</p>
-                </li>
-      
-                <li class="case-list-item">
-                  <p class="body-text"> <strong>Task 3:</strong> Sign in using meta to continue checkout</p>
-                </li>
-              </ul>
-            </div>
-
-            <h2 class="sub-header mt-64">Low Fidelity Usability Test Results</h2>
-            <p class="body-text">Click <a class="clickable" target="_blank" href="https://www.figma.com/proto/1zgL6MJH3DHElAoDb6ghgy/Capstone-2---LowFid?page-id=0%3A1&node-id=15-27&viewport=262%2C375%2C0.12&scaling=min-zoom&starting-point-node-id=15%3A27">here</a> to view prototype</p>
+          <h1 class="main-header mt-192">Day 4 - Prototype</h1>
+          <h2 class="sub-header mt-32">Verifying Assumptions through Effective Testing Strategires</h2>
+          <p class="body-text">On Day 4, I developed the prototype for usability testing so I could evaluate the effectiveness and efficiency of the wireframe for the PostUp app brief. The prototype for this design is a low fidelity illustration of this process and was created by simply translating the wireframes into a more interactive format. </p>
             <div class="tasktable-holder">
-              <img class="case-image tasktable" src="./images/postup-tasktable.png" data-aos="fade-right">
-           </div>
+          <img class="case-image hifi-main" src="./images/postup-prototype.png" data-aos="fade-left">
+            </div>
+        <p class="body-text">The interactive prototype can be found <a  href="https://marvelapp.com/j597ec7" class="clickable">here</a></p>
+        <p class="body-text mt-64">Testing focused on the user flow from opening the app and enabling location services to navigating to the desired destination. This was crucial in determining how intuitively users understood the purpose and options on each screen. The design of the app was heavily influenced by the user-intuitive and aesthetically pleasing design system of AirBnB, and it was important to understand if users were able to navigate the app with the same level of ease. The results of the usability testing provided valuable insights into the effectiveness of the wireframe and informed necessary changes or adjustments before the final app was developed.”
+        </p>
 
-           <h2 class="sub-header mt-64">High Fidelity Usability Test Results</h2>
-            <div class="tasktable-holder">
-              <img class="case-image tasktable" src="./images/postup-tasktable2.png" data-aos="fade-right">
-           </div>
+        <h1 class="main-header mt-192">05 - Testing</h1>
+        <h2 class="sub-header mt-32">Does the PostUp prototype work?</h2>
+        <p class="body-text">On Day 5, I commenced the usability testing process by interviewing five participants, four of whom were college students and one who is employed full time. Their ages ranged from 18 to 21, and they all fit the target demographic for the app. Scheduling was somewhat challenging due to the approaching holiday season, but I was able to conduct the interviews without too much difficulty.
+          </p>
 
-          <h1 class="main-header">04 - The Final Product</h1>
-          <p class="body-text">I designed Blink Bikes to feel active, simplistic and intuitive to use. Simplicity is its central asset. It maintains a strong screen presence by guiding the users’ eyes directly to the information hotspots while simultaneously controlling the flow of information on the page. Users meet little to no resistance at every point of interaction and can efficiently use the information available to make an informed decision on what bike will suit their needs best. </p>
-          <img class="case-image hifi-main" src="./images/postup-hifi.png" data-aos="fade-left">
+          <div class="tasktable-holder">
+            <img class="case-image tasktable" src="./images/postup-hifi.png" data-aos="fade-left">
+          </div>
 
-          <div class="other-screens-holder">
-            <img class="case-image hifi-others" src="./images/postup-hifi-all.png" data-aos="fade-right">
+          <p class="body-text">Overall, the interview process went smoothly. During the usability testing, most participants seemed to feel comfortable with the non-academic setting of the dormitory, however, some participants expressed concerns regarding the repeated nature of the interviews. To alleviate these concerns, I emphasized that the testing was solely focused on the app and not on their abilities as individuals, I also reassured them that there were no wrong answers and that their feedback was valuable for the improvement of the app. The testing provided valuable insights that I incorporated into a mid-fidelity wireframe, although it was not required by Springboard.</p>
+
+          <div class="tasktable-holder mt-32">
+            <img class="case-image tasktable" src="./images/postup-hifidemo.png" data-aos="fade-left">
+          </div>
+
+
+          <p class="body-text">Based on my findings, the main pain points for users were located on the second screen of the app.. </p>
+
+          <div class="tasktable-holder">
+            <img class="case-image tasktable" src="./images/postup-results-images.png" data-aos="fade-right">
+          </div>
+
+          <div class="results-holder">
+          
+
+         
+            <img class="case-image result" src="./images/postup-results2.png" data-aos="fade-right">
+      
+
+      
+            <img class="case-image result" src="./images/postup-results3.png" data-aos="fade-right">
           </div>
           
-          <div class="subheader-area">
+          
             <h2 class="sub-header mt-32">Key Takeaways</h2>
             <p class="body-text">Designing Blink Bikes has taught me several valuable lessons about user experience. </p>
             <ul>
@@ -340,7 +327,7 @@
                   </p>
                   </li>
                 </ul>
-                </div>
+          
                 
           <div class="ending-holder mt-64">
             <img class="case-image ending" src="./images/Persona.svg">
