@@ -175,7 +175,7 @@ p {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  width: 100vw;
+  width: 75%;
   height: auto;
   margin: 0px 125px 0px 125px;
 }
@@ -236,7 +236,7 @@ strong {
 }
 .lowfi-holder {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
 }
 .userflow {
@@ -247,7 +247,7 @@ strong {
 }
 .tasktable-holder {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
 }
 .tasktable {
@@ -262,7 +262,7 @@ strong {
 }
 .other-screens-holder {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
 }
 .hifi-others {

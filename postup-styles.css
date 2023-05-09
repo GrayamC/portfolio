@@ -25,6 +25,7 @@ p {
   color: #d0d0d0;
   font-family: DM Sans, sans-serif;
   font-size: 18px;
+  line-height: 2rem;
 }
 
 .nav-section {
@@ -159,7 +160,7 @@ p {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  width: 100vw;
+  width: 75%;
   height: auto;
   margin: 0px 125px 0px 125px;
 }
@@ -206,6 +207,20 @@ p {
   justify-content: space-between;
   margin-bottom: 64px;
 }
+.testing-results {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+.image-col {
+  display: inline-flex;
+  width: auto;
+  height: 75%;
+}
+.text-col {
+  display: inline-block;
+  width: 65%;
+}
 strong {
   color: #f2f2f2;
 }
@@ -242,7 +257,7 @@ strong {
 }
 .tasktable-holder {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
 }
 .tasktable {
@@ -629,6 +644,9 @@ strong {
   }
   .cs-tile {
     flex-direction: column-reverse;
+  }
+  .testing-results {
+    flex-direction: column;
   }
   .tile-image {
     align-self: center;
