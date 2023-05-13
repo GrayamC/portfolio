@@ -211,11 +211,41 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: left;
+  box-sizing: border-box;
+}
+.stat {
+  display: flex;
+  flex-direction: row;
 }
 .image-col {
   display: inline-flex;
   width: auto;
   height: 75%;
+  border-radius: 24px;
+}
+.demo-col {
+}
+.demoimg {
+  display: inline-block;
+  height: auto;
+  width: 90%;
+}
+.demo-results {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin: 0px 0px 0px 0px;
+}
+.demo-row {
+  display: inline-flex;
+  width: 30%;
+  height: 15%;
+  flex-direction: row;
+  margin: 0px 0px 0px 0px;
+}
+.demo-text {
+  display: inline-block;
+  width: 65%;
 }
 .text-col {
   display: inline-block;

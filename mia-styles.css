@@ -135,6 +135,31 @@ p {
 }
 
 /*Case Styles*/
+.stats-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+}
+.stat {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+.stat-heading {
+  font-family: Satoshi, sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  margin-bottom: 16px;
+  color: #57acdc;
+}
+.stat3 {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+}
 .intro-holder {
   display: flex;
   flex-direction: column;
@@ -153,6 +178,9 @@ p {
 }
 .mt-192 {
   margin-top: 192px;
+}
+.mt-96 {
+  margin-top: 96px;
 }
 .mt-64 {
   margin-top: 64px;
@@ -183,14 +211,15 @@ p {
   text-align: left;
   margin: 0px 0px 0px 0px;
   scroll-margin-top: 100px;
+  justify-content: center;
 }
 .content-holder {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  width: 75%;
   height: auto;
   margin: 0px 125px 0px 125px;
+  max-width: 56rem;
 }
 .splash-pic {
   height: auto;
@@ -325,7 +354,6 @@ strong {
 .body-text {
   font-size: 20px;
   margin-bottom: 8px;
-  margin-top: 8px;
 }
 .title-text {
   display: flex;

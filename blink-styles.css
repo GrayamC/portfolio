@@ -135,6 +135,31 @@ p {
 }
 
 /*Case Styles*/
+.stats-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+}
+.stat {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+.stat-heading {
+  font-family: Satoshi, sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  margin-bottom: 16px;
+  color: #57acdc;
+}
+.stat3 {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+}
 .intro-holder {
   display: flex;
   flex-direction: column;
