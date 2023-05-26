@@ -247,7 +247,7 @@ p {
   transition: 0.3s;
   margin-right: 20px;
   width: 35%;
-  border: whitesmoke;
+  border: none;
 }
 
 .see-case:hover {
